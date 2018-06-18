@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="media_queries.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <title>The Game Shop</title>
 </head>
 <body>
     <header id="header">
         <img src="https://dcassetcdn.com/design_img/199577/124397/124397_2295572_199577_image.jpg" alt="header-img" id="header-img">
-        <nav id="nav-bar">
-            <a href="#services" class="nav-link">Services</a>            
-            <a href="#new-games" class="nav-link">New Games</a>
-            <a href="#footer" class="nav-link">Pricing</a>
-        </nav>
+        <div id="nav-container">
+            <nav id="nav-bar">
+                <a href="#services" class="nav-link">Services</a>            
+                <a href="#new-games" class="nav-link">New Games</a>
+                <a href="#footer" class="nav-link">Pricing</a>
+            </nav>            
+        </div>
+
     </header>
     <div id="spacer"></div>
     <main>
@@ -49,6 +53,7 @@
                     <li>1 Free digital downlaod per month</li>
                     <li>Free demos of new releases</li>
                 </ul>
+                <button class="myButton">Select</button>
             </fieldset>
             <fieldset>
                 <legend>Yearly Membership</legend>
@@ -61,15 +66,18 @@
                     <li>Discounts on new releases</li>
                     <li>Discounts on new consoles</li>
                 </ul>
+                <button class="myButton">Select</button>
             </fieldset>
         </div>
 
         <h2>Interested? Hit Us Up</h2>
         <form method="get" action="https://www.freecodecamp.com/email-submit" id="form">
             <input type="email" id="email" name="email" placeholder="Enter your email address">
-            <input type="submit" id="submit">
+            <input type="submit" id="submit" class="myButton">
         </form>
     </main>
     <footer id="footer"></footer>
+
 </body>
+    <script src="./scroll.js" type="text/javascript"></script>
 </html>
