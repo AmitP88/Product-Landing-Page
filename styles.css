@@ -1,8 +1,66 @@
-#nav-bar {
-    position: fixed;
+body {
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #header {
-        display: flex;
-        flex-direction: row;    
+    height: 100px;
+}
+
+#header-img {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration-line: none;
+    margin-right: 10px;
+    color: dimgray;
+}
+
+a:hover {
+    border-bottom: solid 2px red;
+    display: inline;
+    padding-bottom: 30px;
+}
+
+#spacer {
+    height: 250px;
+}
+
+h2 {
+    color: dimgray;
+    border-bottom: solid 2px red;
+    padding-bottom: 5px;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#services, #new-games {
+    text-align: center;
+}
+
+li {
+    padding: 5%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+    
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+legend {
+    text-align: center;
 }
