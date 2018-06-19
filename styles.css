@@ -61,10 +61,6 @@ li {
     height: 100%;
 }
 
-iframe {
-    z-index: -10;
-}
-
 legend {
     text-align: center;
 }
