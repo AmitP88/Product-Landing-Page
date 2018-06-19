@@ -17,10 +17,23 @@
         margin: 0;
     }
 
+    #nav-container {
+        width: 100%;
+        padding: 5%;
+    }
+
     #nav-bar {
         display: flex;
         width: 100%;
         justify-content: space-around;
+    }
+
+    a:hover {
+        padding-bottom: 1%;
+    }
+
+    #spacer {
+        height: 50px;
     }
 
     ul {
@@ -31,7 +44,7 @@
     }
 
     #services, #new-games, #pricing {
-        margin: 50% 10% 50% 10%;
+        margin: 40% 10% 40% 10%;
     }
 
     fieldset {
@@ -47,4 +60,42 @@
     }
 
 
+}
+
+@media only screen and (min-width: 768px) {
+    #header {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+    }
+
+    #nav-container {
+        margin-top: 7%;
+    }
+
+    #header-img {
+        width: 400px;
+        height: 200px;
+        margin-top: 5%;
+    }
+
+    #spacer {
+        height: 1px;
+    }
+
+    #services, #new-games, #pricing {
+        margin: 25% 10% 25% 10%;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    #nav-container {
+        padding-top: 3%;        
+        padding-bottom: 3%;
+    }
+
+    #services, #new-games, #pricing {
+        margin: 15% 10% 15% 10%;
+    }
 }

@@ -4,13 +4,8 @@ body {
     overflow-x: hidden;
 }
 
-#nav-container {
-    width: 100%;
-    padding: 10%;
-}
-
 .active {
-    background-color: lightgrey;
+    background-color: #d3d3d3b8;
     -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
@@ -30,11 +25,6 @@ a {
 a:hover {
     border-bottom: solid 2px red;
     display: inline;
-    padding-bottom: 30px;
-}
-
-#spacer {
-    height: 175px;
 }
 
 h2 {
