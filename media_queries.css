@@ -49,11 +49,11 @@
     }
 
     #services {
-        margin: 10% 0 40% 0; 
+        margin: 10% 0 20% 0; 
     }
 
     #new-games, #pricing {
-        margin: 10% 0 40% 0;
+        margin: 10% 0 20% 0;
     }
 
     fieldset {
@@ -61,7 +61,11 @@
     }
         
     #form {
-        margin: 15%;
+        margin: 10%;
+    }
+
+    input {
+        text-align: -webkit-center;        
     }
     
     #email {
@@ -80,12 +84,18 @@
 
     #nav-container {
         margin-top: 7%;
+        height: 110px;
     }
 
     #header-img {
         width: 400px;
         height: 200px;
         margin-top: 5%;
+    }
+
+    #nav-bar {
+        top: 50%;
+        position: relative;
     }
 
     #spacer {
