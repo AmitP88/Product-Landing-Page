@@ -125,7 +125,8 @@ button {
 	width: 200px;
 	background-color: crimson;
     color: aliceblue;
-    font-size: large;
+	font-size: large;
+	margin-bottom: 5%;
 }
 
 button:hover {
