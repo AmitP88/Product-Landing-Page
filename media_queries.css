@@ -72,7 +72,17 @@
         width: 70%;
     }
 
+    legend {
+        font-size: 20px;
+    }
 
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+    #header-img {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -106,8 +116,22 @@
     	padding-top: 30%;
     }
 
+    h2 {
+        font-size: 30px;
+    }
+
+    .new-games-title {
+        width: 200px;
+    }
+
     #services, #new-games, #pricing {
         margin: 2% 0 25% 0;
+    }
+
+    #form {
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
     }
 
 }
@@ -119,10 +143,22 @@
     }
 
     main {
-    	padding-top: 30%;
+    	padding-top: 20%;
+    }
+
+    #services {
+        height: 500px;
+    }
+
+    #services li {
+        font-size: 24px;
     }
 
     #services, #new-games, #pricing {
-        margin: 2% 0 25% 0;
+        margin: 2% 0 20% 0;
+    }
+
+    #form {
+        margin-top: 5%;
     }
 }
