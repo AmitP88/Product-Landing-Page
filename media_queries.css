@@ -44,7 +44,7 @@
     }
 
     #services, #new-games, #pricing {
-        margin: 40% 10% 40% 10%;
+        margin: 40% 0 40% 0;
     }
 
     fieldset {
@@ -84,7 +84,7 @@
     }
 
     #services, #new-games, #pricing {
-        margin: 25% 10% 25% 10%;
+        margin: 25% 0 25% 0;
     }
 
 }
@@ -96,6 +96,6 @@
     }
 
     #services, #new-games, #pricing {
-        margin: 15% 10% 15% 10%;
+        margin: 15% 0 15% 0;
     }
 }

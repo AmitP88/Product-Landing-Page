@@ -1,5 +1,5 @@
-body {
-    width: 100%;
+html, body {
+    max-width: 100%;
     font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
 }
@@ -37,12 +37,34 @@ h2 {
     text-align: center;
 }
 
-#services, #new-games {
+#services {
+	background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('https://orig00.deviantart.net/86db/f/2015/250/6/f/triumphordiehiresv_by_deffectx-d98s7xb.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 5%;
+}
+
+#new-games {
+	background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('http://extras.mnginteractive.com/live/media/site21/2018/0801/20180801__03DCFGAM~1.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 5%;	
+}
+
+#pricing {
+	background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('http://images5.fanpop.com/image/photos/27900000/Kingdom-Hearts-kingdom-hearts-27963321-340-463.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 5%;	
+}
+
+div {
     text-align: center;
 }
 
 li {
-    padding: 5%;
+	padding: 5%;
+	font-weight: bold;
 }
 
 .video-container {
