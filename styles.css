@@ -56,13 +56,15 @@ h2 {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	padding: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #new-games {
 	background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url('./images/new-games.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	padding: 5%;	
+	padding: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .monthly {
@@ -70,6 +72,7 @@ h2 {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: 1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .yearly {
@@ -77,6 +80,7 @@ h2 {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	opacity: 1;	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 fieldset {
